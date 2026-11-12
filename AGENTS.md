@@ -83,3 +83,7 @@ Read and follow:
 - `AGENTS.md` includes repo-local guidance plus the policy entry section.
 - The durable policy body lives under `docs/dev/policies/`.
 - Keep repo-specific commands, environment details, and operational caveats in this file or adjacent local docs.
+
+## Downstream ownership and upstream isolation
+
+This checkout is maintained for `itsvivekgargdaddy/codebase-memory-mcp`. `CochranResearchGroup/codebase-memory-mcp` is a read-only upstream for this personal stack. Changes, issues, pull requests, labels and deployments must target this verified downstream repository unless the user explicitly requests an upstream contribution. Upstream tracker URLs in inherited documentation do not authorize writes there. Keep credentials and runtime state outside Git.
